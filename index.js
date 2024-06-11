@@ -1,12 +1,12 @@
 const display = document.getElementById("display");
 
 function clearDisplay(){
-return display.value = "";
+display.value = "";
 };
 
 
 function appendToDisplay(input){
-return display.value += input;
+display.value += input;
 }
 
 
